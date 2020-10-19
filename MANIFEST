@@ -7,6 +7,7 @@ NamedEntityRecognition/Gazetteer.c
 NamedEntityRecognition/Gazetteer.pxd
 NamedEntityRecognition/Gazetteer.pyx
 NamedEntityRecognition/NERCorpus.c
+NamedEntityRecognition/NERCorpus.pxd
 NamedEntityRecognition/NERCorpus.pyx
 NamedEntityRecognition/NamedEntitySentence.c
 NamedEntityRecognition/NamedEntitySentence.pxd

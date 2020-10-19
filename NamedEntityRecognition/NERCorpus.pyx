@@ -1,5 +1,3 @@
-from Corpus.Corpus cimport Corpus
-from Corpus.Sentence cimport Sentence
 from NamedEntityRecognition.NamedEntitySentence cimport NamedEntitySentence
 
 
