@@ -8,7 +8,7 @@ setup(
     version='1.0.2',
     packages=['NamedEntityRecognition'],
     package_data={'NamedEntityRecognition': ['*.pxd', '*.pyx', '*.c', '*.py']},
-    url='https://github.com/olcaytaner/TurkishNamedEntityRecognition-Cy',
+    url='https://github.com/StarlangSoftware/TurkishNamedEntityRecognition-Cy',
     license='',
     author='olcaytaner',
     author_email='olcay.yildiz@ozyegin.edu.tr',
