@@ -11,7 +11,7 @@ setup(
     url='https://github.com/olcaytaner/TurkishNamedEntityRecognition-Cy',
     license='',
     author='olcaytaner',
-    author_email='olcaytaner@isikun.edu.tr',
+    author_email='olcay.yildiz@ozyegin.edu.tr',
     description='NER Corpus Processing Library',
     install_requires=['NlpToolkit-Corpus-Cy']
 )
