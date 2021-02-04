@@ -28,7 +28,7 @@ Use Git for cloning the code to your local or below line for Ubuntu:
 
 A directory called DataStructure will be created. Or you can use below link for exploring the code:
 
-	git clone github.com/starlangsoftware/TurkishNamedEntityRecognition-Py.git
+	git clone github.com/starlangsoftware/TurkishNamedEntityRecognition-Cy.git
 
 ## Open project with Pycharm IDE
 
@@ -36,5 +36,24 @@ Steps for opening the cloned project:
 
 * Start IDE
 * Select **File | Open** from main menu
-* Choose `TurkishNamedEntityRecognition-Py/` file
+* Choose `TurkishNamedEntityRecognition-Cy` file
 * Select open as project option
+
+Detailed Description
+============
+
++ [Gazetteer](#gazetteer)
+
+## Gazetteer
+
+Bir Gazetter yüklemek için
+
+	Gazetteer(self, name: str, fileName: str)
+
+Hazır Gazetteerleri kullanmak için
+
+	AutoNER()
+
+Bir Gazetteer'de bir kelime var mı diye kontrol etmek için
+
+	contains(self, word: str) -> bool
