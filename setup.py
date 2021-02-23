@@ -5,7 +5,7 @@ setup(
     ext_modules=cythonize(["NamedEntityRecognition/*.pyx"],
                           compiler_directives={'language_level': "3"}),
     name='NlpToolkit-NamedEntityRecognition-Cy',
-    version='1.0.3',
+    version='1.0.4',
     packages=['NamedEntityRecognition'],
     package_data={'NamedEntityRecognition': ['*.pxd', '*.pyx', '*.c', '*.py']},
     url='https://github.com/StarlangSoftware/TurkishNamedEntityRecognition-Cy',

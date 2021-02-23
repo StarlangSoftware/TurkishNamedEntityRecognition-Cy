@@ -16,4 +16,8 @@ NamedEntityRecognition/NamedEntityType.py
 NamedEntityRecognition/NamedEntityWord.c
 NamedEntityRecognition/NamedEntityWord.pxd
 NamedEntityRecognition/NamedEntityWord.pyx
+NamedEntityRecognition/Slot.c
+NamedEntityRecognition/Slot.pxd
+NamedEntityRecognition/Slot.pyx
+NamedEntityRecognition/SlotType.py
 NamedEntityRecognition/__init__.py
