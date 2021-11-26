@@ -6,7 +6,7 @@ from NamedEntityRecognition.Gazetteer import Gazetteer
 class GazetteerTest(unittest.TestCase):
 
     def test_Contains(self):
-        gazetteer = Gazetteer("location", "../gazetteer-location.txt")
+        gazetteer = Gazetteer("location", "../NamedEntityRecognition/data/gazetteer-location.txt")
         self.assertTrue(gazetteer.contains("bağdat"))
         self.assertTrue(gazetteer.contains("BAĞDAT"))
         self.assertTrue(gazetteer.contains("belçika"))
