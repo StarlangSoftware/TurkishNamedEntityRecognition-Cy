@@ -2,14 +2,14 @@ from setuptools import setup
 
 from pathlib import Path
 this_directory = Path(__file__).parent
-long_description = (this_directory / "README.md").read_text()
+long_description = (this_directory / "README.md").read_text(encoding="utf-8")
 from Cython.Build import cythonize
 
 setup(
     ext_modules=cythonize(["NamedEntityRecognition/*.pyx"],
                           compiler_directives={'language_level': "3"}),
     name='NlpToolkit-NamedEntityRecognition-Cy',
-    version='1.0.6',
+    version='1.0.7',
     packages=['NamedEntityRecognition', 'NamedEntityRecognition.data'],
     package_data={'NamedEntityRecognition': ['*.pxd', '*.pyx', '*.c', '*.py'],
                   'NamedEntityRecognition.data': ['*.txt']},
