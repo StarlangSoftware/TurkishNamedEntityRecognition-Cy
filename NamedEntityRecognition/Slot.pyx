@@ -3,7 +3,9 @@ from NamedEntityRecognition.SlotType import SlotType
 
 cdef class Slot:
 
-    def __init__(self, str tag, type = None):
+    def __init__(self,
+                 str tag,
+                 type = None):
         if type is not None:
             self.tag = tag
             self.type = type

@@ -4,4 +4,4 @@ from NamedEntityRecognition.NamedEntityType import NamedEntityType
 
 cdef class NamedEntityWord(Word):
 
-    cdef object __namedEntityType
+    cdef object __named_entity_type

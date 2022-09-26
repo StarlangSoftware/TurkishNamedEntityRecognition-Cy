@@ -9,7 +9,7 @@ setup(
     ext_modules=cythonize(["NamedEntityRecognition/*.pyx"],
                           compiler_directives={'language_level': "3"}),
     name='NlpToolkit-NamedEntityRecognition-Cy',
-    version='1.0.7',
+    version='1.0.8',
     packages=['NamedEntityRecognition', 'NamedEntityRecognition.data'],
     package_data={'NamedEntityRecognition': ['*.pxd', '*.pyx', '*.c', '*.py'],
                   'NamedEntityRecognition.data': ['*.txt']},

@@ -15,8 +15,9 @@ cdef class NERCorpus(Corpus):
         """
         super().__init__()
         if fileName is not None:
-            inputFile = open(fileName, "r", encoding="utf8")
-            lines = inputFile.readlines()
+            input_file = open(fileName, "r", encoding="utf8")
+            lines = input_file.readlines()
+            input_file.close()
             for line in lines:
                 self.addSentence(NamedEntitySentence(line))
 
