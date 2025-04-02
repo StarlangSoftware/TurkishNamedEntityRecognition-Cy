@@ -22,6 +22,7 @@ cdef class Gazetteer:
         lines = inputFile.readlines()
         for line in lines:
             self.__data.add(line.strip())
+        inputFile.close()
 
     cpdef str getName(self):
         """
